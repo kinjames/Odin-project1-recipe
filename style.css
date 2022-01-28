@@ -24,6 +24,7 @@ span{
 .header{
     background-image: url(pictures/recipe.jpg);
     width: 100%;
+    border-radius: 12px;
     /* justify-content: center;
     position: relative;
     margin-left: 250px; */
@@ -78,4 +79,52 @@ span{
     transition: 0.3s all ease;
     border-radius: 16px;
     box-shadow: 0 0 5px grey;
+    cursor: pointer;
 }
+
+
+/* Pizza */
+
+.img img{
+    width: 100%;
+    height: 60vh;
+    border-radius: 8px;
+}
+
+.container{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 30% 60%;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+    word-spacing: 5px;
+}
+
+.container p{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    text-align: left;
+}
+
+.container a{
+    text-decoration: none;
+    color: black;
+}
+
+.note{
+    padding-left: 10px;
+}
+
+
+@media only screen and (max-width:600px)
+{
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+    
+
+
