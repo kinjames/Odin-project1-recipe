@@ -68,7 +68,7 @@ span{
 .items{
     margin-top: 100px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 30rem);
+    grid-template-columns: repeat(auto-fit, 20rem);
     justify-content: center;
     column-gap: 40px;
     row-gap: 90px;
