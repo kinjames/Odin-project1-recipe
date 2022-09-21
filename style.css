@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 p{
     text-align: center;
@@ -8,6 +10,7 @@ p{
     color: white;
     /* margin: 5px; */
     border-radius: 10px;
+    margin-top: 20px;
 }
 
 h1{
@@ -21,22 +24,18 @@ span{
     color: coral;
 }
 
-.header{
-    background-image: url(pictures/recipe.jpg);
+
+body {
+    height: 100vh;
     width: 100%;
-    border-radius: 12px;
-    /* justify-content: center;
-    position: relative;
-    margin-left: 250px; */
 }
 
-/* .homepage img{
-    display: grid;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-} */
+.header{
+    background: rgba(0,0,0,.75);
+    width: 100%;
+    padding: 20px 0;
+}
+
 
 .img-1 img{
     width: 100%;
@@ -72,6 +71,7 @@ span{
     justify-content: center;
     column-gap: 40px;
     row-gap: 90px;
+    margin-bottom: 40px;
 }
 
 .items img:hover{
@@ -145,6 +145,7 @@ span{
     .header h1{
         font-size: 70px;
     }
+
 }
     
 
