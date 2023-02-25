@@ -6,4 +6,4 @@ with time it more things will be added to it.
 it is still a work in progress.
 
 it is responsive.
-I decided to use CSS grid to make it responsive in place of media query.
+I decided to use CSS grid and flex box to make it responsive in place of media query.
