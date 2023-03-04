@@ -10,3 +10,4 @@ I decided to use CSS grid and flex box to make it responsive in place of media q
 responsive.
 This responsive recipe page is going to undergo some changes and be implemented to use an API.
 An API that will bascially bring 100's of recipes.
+It is going to be categorised in local and continental dishes
