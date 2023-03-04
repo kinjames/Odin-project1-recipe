@@ -8,4 +8,5 @@ it is still a work in progress.
 it is responsive.
 I decided to use CSS grid and flex box to make it responsive in place of media query.the page is very
 responsive.
-This responsive recipe page is going to undergo some changes and be implemented to use an API
+This responsive recipe page is going to undergo some changes and be implemented to use an API.
+An API that will bascially bring 100's of recipes.
