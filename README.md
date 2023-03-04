@@ -11,3 +11,4 @@ responsive.
 This responsive recipe page is going to undergo some changes and be implemented to use an API.
 An API that will bascially bring 100's of recipes.
 It is going to be categorised in local and continental dishes
+It will work better with filter and sort and search.
